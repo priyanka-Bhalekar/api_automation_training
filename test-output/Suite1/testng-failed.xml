@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="com.automation.util.RetryListener"/>
+  </listeners>
+  <test thread-count="5" name="API Autpmation concepts(failed)">
+    <classes>
+      <class name="APITestConcept.NewTest">
+        <methods>
+          <include name="verifyGetUsersSC"/>
+          <include name="getResult"/>
+          <include name="config"/>
+          <include name="endReport"/>
+        </methods>
+      </class> <!-- APITestConcept.NewTest -->
+    </classes>
+  </test> <!-- API Autpmation concepts(failed) -->
+  <test thread-count="5" name="testng concepts(failed)">
+    <classes>
+      <class name="APITestConcept.TestNGAnnotationConcepts">
+        <methods>
+          <include name="verifyGetUsersSC"/>
+        </methods>
+      </class> <!-- APITestConcept.TestNGAnnotationConcepts -->
+    </classes>
+  </test> <!-- testng concepts(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

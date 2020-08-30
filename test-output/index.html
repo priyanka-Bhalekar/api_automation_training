@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button class="button" id="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Default_suite">
+              <span class="suite-name border-failed">Default suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Default_suite">
+                    <span>C:\Users\priyanka.bhalekar\AppData\Local\Temp\testng-eclipse--290385886\testng-customsuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Default_suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Default_suite">
+                    <span>1 group</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Default_suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Default_suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Default_suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Default_suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">20 methods, 1 failed,   19 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods failed suite-Default_suite"> (hide)</a> <!-- hide-methods failed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods failed suite-Default_suite"> (show)</a> <!-- show-methods failed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="verifyGetUsersSC">verifyGetUsersSC</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Default_suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Default_suite" class="hide-methods passed suite-Default_suite"> (hide)</a> <!-- hide-methods passed suite-Default_suite -->
+                      <a href="#" panel-name="suite-Default_suite" class="show-methods passed suite-Default_suite"> (show)</a> <!-- show-methods passed suite-Default_suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Default_suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="displayRequestBody">displayRequestBody</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="getEmailOfSecondData">getEmailOfSecondData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="getFirstNameOfSecondData">getFirstNameOfSecondData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="getLastNameOfSecondData">getLastNameOfSecondData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="searchyFirstname">searchyFirstname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="useOfHeaderConcept">useOfHeaderConcept</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="useOfMap">useOfMap</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="useOfPathParam">useOfPathParam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="useOfQueryParam">useOfQueryParam</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="validateHeaderPost">validateHeaderPost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="validatePost">validatePost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="validatePostWithPojoClass">validatePostWithPojoClass</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="verifyCompanyUID2">verifyCompanyUID2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="verifyEmailUID2">verifyEmailUID2</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="verifyGivenFailedEndPoint">verifyGivenFailedEndPoint</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="verifyInvalidURL">verifyInvalidURL</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="verifyListOfData">verifyListOfData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="verifyPerPageValue">verifyPerPageValue</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Default_suite" title="APITestConcept.NewTest" hash-for-method="verifyStatusCodeDelete">verifyStatusCodeDelete</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Default_suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Default_suite" class="panel Default_suite">
+          <div class="suite-Default_suite-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">APITestConcept.NewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGetUsersSC">
+                  </a> <!-- verifyGetUsersSC -->
+                  <span class="method-name">verifyGetUsersSC</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [201] but found [200]
+	at org.testng.Assert.fail(Assert.java:97)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:839)
+	at org.testng.Assert.assertEquals(Assert.java:849)
+	at APITestConcept.NewTest.verifyGetUsersSC(NewTest.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.util.ArrayList.forEach(Unknown Source)
+	at org.testng.TestRunner.privateRun(TestRunner.java:767)
+	at org.testng.TestRunner.run(TestRunner.java:588)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+	at org.testng.TestNG.runSuites(TestNG.java:1066)
+	at org.testng.TestNG.run(TestNG.java:1034)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+
+</div> <!-- stack-trace -->
+                  <em>
+(validate 200 status code GET API)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-failed -->
+          <div class="suite-Default_suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">APITestConcept.NewTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="displayRequestBody">
+                  </a> <!-- displayRequestBody -->
+                  <span class="method-name">displayRequestBody</span>
+                  <em>
+(use of asString() method to check body of the request)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getEmailOfSecondData">
+                  </a> <!-- getEmailOfSecondData -->
+                  <span class="method-name">getEmailOfSecondData</span>
+                  <em>
+(to get email value of data of second node i.e index 1 or userid=2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getFirstNameOfSecondData">
+                  </a> <!-- getFirstNameOfSecondData -->
+                  <span class="method-name">getFirstNameOfSecondData</span>
+                  <em>
+(to get firstname value of data of second node i.e index 1 or userid=2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getLastNameOfSecondData">
+                  </a> <!-- getLastNameOfSecondData -->
+                  <span class="method-name">getLastNameOfSecondData</span>
+                  <em>
+(to get lastname value of data of second node i.e index 1 or userid=2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchyFirstname">
+                  </a> <!-- searchyFirstname -->
+                  <span class="method-name">searchyFirstname</span>
+                  <em>
+(validate if in the list fistname Janet is present or not )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="useOfHeaderConcept">
+                  </a> <!-- useOfHeaderConcept -->
+                  <span class="method-name">useOfHeaderConcept</span>
+                  <em>
+(concept of header in given method)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="useOfMap">
+                  </a> <!-- useOfMap -->
+                  <span class="method-name">useOfMap</span>
+                  <em>
+(Access to all keys of user id 2 )                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="useOfPathParam">
+                  </a> <!-- useOfPathParam -->
+                  <span class="method-name">useOfPathParam</span>
+                  <em>
+(concept of path params)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="useOfQueryParam">
+                  </a> <!-- useOfQueryParam -->
+                  <span class="method-name">useOfQueryParam</span>
+                  <em>
+(concept of query parameters)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateHeaderPost">
+                  </a> <!-- validateHeaderPost -->
+                  <span class="method-name">validateHeaderPost</span>
+                  <em>
+(Automate post methods of users with headers)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePost">
+                  </a> <!-- validatePost -->
+                  <span class="method-name">validatePost</span>
+                  <em>
+(Automate post methods of users using json file)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePostWithPojoClass">
+                  </a> <!-- validatePostWithPojoClass -->
+                  <span class="method-name">validatePostWithPojoClass</span>
+                  <em>
+(Automate post methods of users using pojoclass)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyCompanyUID2">
+                  </a> <!-- verifyCompanyUID2 -->
+                  <span class="method-name">verifyCompanyUID2</span>
+                  <em>
+(Verify company for user id=2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmailUID2">
+                  </a> <!-- verifyEmailUID2 -->
+                  <span class="method-name">verifyEmailUID2</span>
+                  <em>
+(Verify email for user id=2)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyGivenFailedEndPoint">
+                  </a> <!-- verifyGivenFailedEndPoint -->
+                  <span class="method-name">verifyGivenFailedEndPoint</span>
+                  <em>
+(validate 404 status code for given end point which gives 404)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidURL">
+                  </a> <!-- verifyInvalidURL -->
+                  <span class="method-name">verifyInvalidURL</span>
+                  <em>
+(validate 404 status code for invalid url)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyListOfData">
+                  </a> <!-- verifyListOfData -->
+                  <span class="method-name">verifyListOfData</span>
+                  <em>
+(to get the list of data which is actually map that has key value pairs)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyPerPageValue">
+                  </a> <!-- verifyPerPageValue -->
+                  <span class="method-name">verifyPerPageValue</span>
+                  <em>
+(Validate per page value which is an integer value)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyStatusCodeDelete">
+                  </a> <!-- verifyStatusCodeDelete -->
+                  <span class="method-name">verifyStatusCodeDelete</span>
+                  <em>
+(validate 204 for Delete user)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Default_suite-class-passed -->
+        </div> <!-- panel Default_suite -->
+        <div panel-name="test-xml-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\priyanka.bhalekar\AppData\Local\Temp\testng-eclipse--290385886\testng-customsuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Default suite&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; verbose=&quot;2&quot; name=&quot;Default test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;APITestConcept.NewTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Default test --&gt;
+&lt;/suite&gt; &lt;!-- Default suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Default test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="test-group">
+              <span class="test-group-name">smoke_suite</span>
+              <br/>
+              <div class="method-in-group">
+                <span class="method-in-group-name">verifyGetUsersSC</span>
+                <br/>
+              </div> <!-- method-in-group -->
+            </div> <!-- test-group -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Default_suite');
+function tableData_Default_suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(20);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'displayRequestBody')
+data.setCell(0, 2, 'APITestConcept.NewTest')
+data.setCell(0, 3, 3942);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'getEmailOfSecondData')
+data.setCell(1, 2, 'APITestConcept.NewTest')
+data.setCell(1, 3, 1310);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'validateHeaderPost')
+data.setCell(2, 2, 'APITestConcept.NewTest')
+data.setCell(2, 3, 1034);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyStatusCodeDelete')
+data.setCell(3, 2, 'APITestConcept.NewTest')
+data.setCell(3, 3, 1005);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyInvalidURL')
+data.setCell(4, 2, 'APITestConcept.NewTest')
+data.setCell(4, 3, 940);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'verifyGivenFailedEndPoint')
+data.setCell(5, 2, 'APITestConcept.NewTest')
+data.setCell(5, 3, 875);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validatePostWithPojoClass')
+data.setCell(6, 2, 'APITestConcept.NewTest')
+data.setCell(6, 3, 875);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validatePost')
+data.setCell(7, 2, 'APITestConcept.NewTest')
+data.setCell(7, 3, 820);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'getLastNameOfSecondData')
+data.setCell(8, 2, 'APITestConcept.NewTest')
+data.setCell(8, 3, 610);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'getFirstNameOfSecondData')
+data.setCell(9, 2, 'APITestConcept.NewTest')
+data.setCell(9, 3, 601);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'useOfMap')
+data.setCell(10, 2, 'APITestConcept.NewTest')
+data.setCell(10, 3, 512);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'verifyCompanyUID2')
+data.setCell(11, 2, 'APITestConcept.NewTest')
+data.setCell(11, 3, 502);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'useOfHeaderConcept')
+data.setCell(12, 2, 'APITestConcept.NewTest')
+data.setCell(12, 3, 492);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyEmailUID2')
+data.setCell(13, 2, 'APITestConcept.NewTest')
+data.setCell(13, 3, 478);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'verifyListOfData')
+data.setCell(14, 2, 'APITestConcept.NewTest')
+data.setCell(14, 3, 461);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'useOfQueryParam')
+data.setCell(15, 2, 'APITestConcept.NewTest')
+data.setCell(15, 3, 459);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'useOfPathParam')
+data.setCell(16, 2, 'APITestConcept.NewTest')
+data.setCell(16, 3, 452);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'searchyFirstname')
+data.setCell(17, 2, 'APITestConcept.NewTest')
+data.setCell(17, 3, 449);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'verifyPerPageValue')
+data.setCell(18, 2, 'APITestConcept.NewTest')
+data.setCell(18, 3, 435);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'verifyGetUsersSC')
+data.setCell(19, 2, 'APITestConcept.NewTest')
+data.setCell(19, 3, 419);
+window.suiteTableData['Default_suite']= { tableData: data, tableDiv: 'times-div-Default_suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 16 seconds</span>
+              <div id="times-div-Default_suite">
+              </div> <!-- times-div-Default_suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Default suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Default_suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">APITestConcept.NewTest</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">config</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="test-method">
+                <span class="method-name">displayRequestBody</span>
+                <span class="method-start">253 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=displayRequestBody status=SUCCESS method=NewTest.displayRequestBody()[pri:0, instan...)</span>
+                <span class="method-start">4201 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getEmailOfSecondData</span>
+                <span class="method-start">4210 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=getEmailOfSecondData status=SUCCESS method=NewTest.getEmailOfSecondData()[pri:0, in...)</span>
+                <span class="method-start">5525 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getFirstNameOfSecondData</span>
+                <span class="method-start">5526 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=getFirstNameOfSecondData status=SUCCESS method=NewTest.getFirstNameOfSecondData()[p...)</span>
+                <span class="method-start">6131 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">getLastNameOfSecondData</span>
+                <span class="method-start">6134 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=getLastNameOfSecondData status=SUCCESS method=NewTest.getLastNameOfSecondData()[pri...)</span>
+                <span class="method-start">6745 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">searchyFirstname</span>
+                <span class="method-start">6747 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=searchyFirstname status=SUCCESS method=NewTest.searchyFirstname()[pri:0, instance:A...)</span>
+                <span class="method-start">7198 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">useOfHeaderConcept</span>
+                <span class="method-start">7199 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=useOfHeaderConcept status=SUCCESS method=NewTest.useOfHeaderConcept()[pri:0, instan...)</span>
+                <span class="method-start">7692 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">useOfMap</span>
+                <span class="method-start">7693 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=useOfMap status=SUCCESS method=NewTest.useOfMap()[pri:0, instance:APITestConcept.Ne...)</span>
+                <span class="method-start">8206 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">useOfPathParam</span>
+                <span class="method-start">8207 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=useOfPathParam status=SUCCESS method=NewTest.useOfPathParam()[pri:0, instance:APITe...)</span>
+                <span class="method-start">8669 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">useOfQueryParam</span>
+                <span class="method-start">8670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=useOfQueryParam status=SUCCESS method=NewTest.useOfQueryParam()[pri:0, instance:API...)</span>
+                <span class="method-start">9130 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validateHeaderPost</span>
+                <span class="method-start">9131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=validateHeaderPost status=SUCCESS method=NewTest.validateHeaderPost()[pri:0, instan...)</span>
+                <span class="method-start">10168 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validatePost</span>
+                <span class="method-start">10171 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=validatePost status=SUCCESS method=NewTest.validatePost()[pri:0, instance:APITestCo...)</span>
+                <span class="method-start">10993 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">validatePostWithPojoClass</span>
+                <span class="method-start">10994 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=validatePostWithPojoClass status=SUCCESS method=NewTest.validatePostWithPojoClass()...)</span>
+                <span class="method-start">11873 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyCompanyUID2</span>
+                <span class="method-start">11876 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyCompanyUID2 status=SUCCESS method=NewTest.verifyCompanyUID2()[pri:0, instance...)</span>
+                <span class="method-start">12379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyEmailUID2</span>
+                <span class="method-start">12380 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyEmailUID2 status=SUCCESS method=NewTest.verifyEmailUID2()[pri:0, instance:API...)</span>
+                <span class="method-start">12862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyGetUsersSC</span>
+                <span class="method-start">12863 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyGetUsersSC status=FAILURE method=NewTest.verifyGetUsersSC()[pri:0, instance:A...)</span>
+                <span class="method-start">13284 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyGivenFailedEndPoint</span>
+                <span class="method-start">13285 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyGivenFailedEndPoint status=SUCCESS method=NewTest.verifyGivenFailedEndPoint()...)</span>
+                <span class="method-start">14162 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidURL</span>
+                <span class="method-start">14165 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyInvalidURL status=SUCCESS method=NewTest.verifyInvalidURL()[pri:0, instance:A...)</span>
+                <span class="method-start">15108 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyListOfData</span>
+                <span class="method-start">15111 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyListOfData status=SUCCESS method=NewTest.verifyListOfData()[pri:0, instance:A...)</span>
+                <span class="method-start">15576 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyPerPageValue</span>
+                <span class="method-start">15577 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyPerPageValue status=SUCCESS method=NewTest.verifyPerPageValue()[pri:0, instan...)</span>
+                <span class="method-start">16013 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">verifyStatusCodeDelete</span>
+                <span class="method-start">16017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">getResult([TestResult name=verifyStatusCodeDelete status=SUCCESS method=NewTest.verifyStatusCodeDelete()[pri:0...)</span>
+                <span class="method-start">17023 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-suite after">
+                <span class="method-name">endReport</span>
+                <span class="method-start">17066 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

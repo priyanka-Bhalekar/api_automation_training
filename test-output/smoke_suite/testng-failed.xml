@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [smoke_suite]">
+  <test thread-count="5" name="API Autpmation concepts(failed)">
+    <classes>
+      <class name="APITestConcept.NewTest">
+        <methods>
+          <include name="verifyEmailUID2"/>
+          <include name="verifyStatusCodeDelete"/>
+          <include name="getResult"/>
+          <include name="useOfMap"/>
+          <include name="validatePost"/>
+          <include name="config"/>
+          <include name="validatePostWithPojoClass"/>
+          <include name="verifyInvalidURL"/>
+          <include name="verifyListOfData"/>
+          <include name="useOfHeaderConcept"/>
+          <include name="getFirstNameOfSecondData"/>
+          <include name="getEmailOfSecondData"/>
+          <include name="verifyCompanyUID2"/>
+          <include name="verifyGetUsersSC"/>
+          <include name="validateHeaderPost"/>
+          <include name="useOfPathParam"/>
+          <include name="verifyPerPageValue"/>
+          <include name="searchyFirstname"/>
+          <include name="endReport"/>
+          <include name="useOfQueryParam"/>
+          <include name="displayRequestBody"/>
+          <include name="verifyGivenFailedEndPoint"/>
+          <include name="getLastNameOfSecondData"/>
+        </methods>
+      </class> <!-- APITestConcept.NewTest -->
+    </classes>
+  </test> <!-- API Autpmation concepts(failed) -->
+</suite> <!-- Failed suite [smoke_suite] -->

@@ -1,0 +1,15 @@
+{
+"getUserURI": "api/users/2",
+"invalidURI":"test/users/2",
+"failedEndPoint": "api/users/23",
+"user2Email": "janet.weaver@reqres.in",
+"emailPath": "data.email",
+"companyPath": "ad.company",
+"companyName": "StatusCode Weekly",
+"getUsersURI":"api/users",
+"getPathParamURI": "http://ergast.com/api/f1/{raceSeason}/circuits.json",
+"contentType": "Content-Type",
+"contentTypeValue":"application/json"
+
+}
+

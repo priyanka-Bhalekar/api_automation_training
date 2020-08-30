@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="smoke_suite" verbose="1" >
+  <test name="API Autpmation concepts" >
+  
+    <classes>
+      <class name="com.automation.util.BaseTest" />
+       <class name="APITestConcept.NewTest" />
+       
+    </classes>
+  </test>
+
+</suite>

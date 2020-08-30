@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="20" passed="19">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16810" started-at="2020-08-24T00:15:54 IST" finished-at="2020-08-24T00:16:10 IST">
+    <groups>
+      <group name="smoke_suite">
+        <method signature="NewTest.verifyGetUsersSC()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="verifyGetUsersSC" class="APITestConcept.NewTest"/>
+      </group> <!-- smoke_suite -->
+    </groups>
+    <test name="Default test" duration-ms="16810" started-at="2020-08-24T00:15:54 IST" finished-at="2020-08-24T00:16:10 IST">
+      <class name="APITestConcept.NewTest">
+        <test-method status="PASS" signature="config()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="config" is-config="true" duration-ms="217" started-at="2020-08-24T00:15:53 IST" finished-at="2020-08-24T00:15:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="displayRequestBody()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="displayRequestBody" duration-ms="3942" started-at="2020-08-24T00:15:54 IST" description="use of asString() method to check body of the request" finished-at="2020-08-24T00:15:58 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayRequestBody -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="7" started-at="2020-08-24T00:15:58 IST" finished-at="2020-08-24T00:15:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=displayRequestBody status=SUCCESS method=NewTest.displayRequestBody()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getEmailOfSecondData()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getEmailOfSecondData" duration-ms="1310" started-at="2020-08-24T00:15:58 IST" description="to get email value of data of second node i.e index 1 or userid=2" finished-at="2020-08-24T00:15:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getEmailOfSecondData -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-24T00:15:59 IST" finished-at="2020-08-24T00:15:59 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getEmailOfSecondData status=SUCCESS method=NewTest.getEmailOfSecondData()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getFirstNameOfSecondData()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getFirstNameOfSecondData" duration-ms="601" started-at="2020-08-24T00:15:59 IST" description="to get firstname value of data of second node i.e index 1 or userid=2" finished-at="2020-08-24T00:16:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getFirstNameOfSecondData -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="2" started-at="2020-08-24T00:16:00 IST" finished-at="2020-08-24T00:16:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getFirstNameOfSecondData status=SUCCESS method=NewTest.getFirstNameOfSecondData()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="getLastNameOfSecondData()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getLastNameOfSecondData" duration-ms="610" started-at="2020-08-24T00:16:00 IST" description="to get lastname value of data of second node i.e index 1 or userid=2" finished-at="2020-08-24T00:16:00 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLastNameOfSecondData -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-24T00:16:00 IST" finished-at="2020-08-24T00:16:00 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=getLastNameOfSecondData status=SUCCESS method=NewTest.getLastNameOfSecondData()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="searchyFirstname()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="searchyFirstname" duration-ms="449" started-at="2020-08-24T00:16:00 IST" description="validate if in the list fistname Janet is present or not " finished-at="2020-08-24T00:16:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchyFirstname -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-24T00:16:01 IST" finished-at="2020-08-24T00:16:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=searchyFirstname status=SUCCESS method=NewTest.searchyFirstname()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="useOfHeaderConcept()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="useOfHeaderConcept" duration-ms="492" started-at="2020-08-24T00:16:01 IST" description="concept of header in given method" finished-at="2020-08-24T00:16:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useOfHeaderConcept -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-24T00:16:01 IST" finished-at="2020-08-24T00:16:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=useOfHeaderConcept status=SUCCESS method=NewTest.useOfHeaderConcept()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="useOfMap()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="useOfMap" duration-ms="512" started-at="2020-08-24T00:16:01 IST" description="Access to all keys of user id 2 " finished-at="2020-08-24T00:16:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useOfMap -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-24T00:16:02 IST" finished-at="2020-08-24T00:16:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=useOfMap status=SUCCESS method=NewTest.useOfMap()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="useOfPathParam()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="useOfPathParam" duration-ms="452" started-at="2020-08-24T00:16:02 IST" description="concept of path params" finished-at="2020-08-24T00:16:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useOfPathParam -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-24T00:16:02 IST" finished-at="2020-08-24T00:16:02 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=useOfPathParam status=SUCCESS method=NewTest.useOfPathParam()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="useOfQueryParam()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="useOfQueryParam" duration-ms="459" started-at="2020-08-24T00:16:02 IST" description="concept of query parameters" finished-at="2020-08-24T00:16:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- useOfQueryParam -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-24T00:16:03 IST" finished-at="2020-08-24T00:16:03 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=useOfQueryParam status=SUCCESS method=NewTest.useOfQueryParam()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="validateHeaderPost()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="validateHeaderPost" duration-ms="1034" started-at="2020-08-24T00:16:03 IST" description="Automate post methods of users with headers" finished-at="2020-08-24T00:16:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateHeaderPost -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="2" started-at="2020-08-24T00:16:04 IST" finished-at="2020-08-24T00:16:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validateHeaderPost status=SUCCESS method=NewTest.validateHeaderPost()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="validatePost()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="validatePost" duration-ms="820" started-at="2020-08-24T00:16:04 IST" description="Automate post methods of users using json file" finished-at="2020-08-24T00:16:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePost -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-24T00:16:04 IST" finished-at="2020-08-24T00:16:04 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePost status=SUCCESS method=NewTest.validatePost()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="validatePostWithPojoClass()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="validatePostWithPojoClass" duration-ms="875" started-at="2020-08-24T00:16:04 IST" description="Automate post methods of users using pojoclass" finished-at="2020-08-24T00:16:05 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostWithPojoClass -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-24T00:16:05 IST" finished-at="2020-08-24T00:16:05 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validatePostWithPojoClass status=SUCCESS method=NewTest.validatePostWithPojoClass()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyCompanyUID2()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="verifyCompanyUID2" duration-ms="502" started-at="2020-08-24T00:16:05 IST" description="Verify company for user id=2" finished-at="2020-08-24T00:16:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCompanyUID2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-24T00:16:06 IST" finished-at="2020-08-24T00:16:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyCompanyUID2 status=SUCCESS method=NewTest.verifyCompanyUID2()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyEmailUID2()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="verifyEmailUID2" duration-ms="478" started-at="2020-08-24T00:16:06 IST" description="Verify email for user id=2" finished-at="2020-08-24T00:16:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailUID2 -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-24T00:16:06 IST" finished-at="2020-08-24T00:16:06 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyEmailUID2 status=SUCCESS method=NewTest.verifyEmailUID2()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="FAIL" signature="verifyGetUsersSC()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="verifyGetUsersSC" duration-ms="419" started-at="2020-08-24T00:16:06 IST" description="validate 200 status code GET API" finished-at="2020-08-24T00:16:07 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [201] but found [200]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [201] but found [200]
+at org.testng.Assert.fail(Assert.java:97)
+at org.testng.Assert.assertEqualsImpl(Assert.java:136)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:839)
+at org.testng.Assert.assertEquals(Assert.java:849)
+at APITestConcept.NewTest.verifyGetUsersSC(NewTest.java:36)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGetUsersSC -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-24T00:16:07 IST" finished-at="2020-08-24T00:16:07 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGetUsersSC status=FAILURE method=NewTest.verifyGetUsersSC()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyGivenFailedEndPoint()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="verifyGivenFailedEndPoint" duration-ms="875" started-at="2020-08-24T00:16:07 IST" description="validate 404 status code for given end point which gives 404" finished-at="2020-08-24T00:16:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyGivenFailedEndPoint -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="2" started-at="2020-08-24T00:16:08 IST" finished-at="2020-08-24T00:16:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyGivenFailedEndPoint status=SUCCESS method=NewTest.verifyGivenFailedEndPoint()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyInvalidURL()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="verifyInvalidURL" duration-ms="940" started-at="2020-08-24T00:16:08 IST" description="validate 404 status code for invalid url" finished-at="2020-08-24T00:16:08 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyInvalidURL -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="2" started-at="2020-08-24T00:16:08 IST" finished-at="2020-08-24T00:16:08 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyInvalidURL status=SUCCESS method=NewTest.verifyInvalidURL()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyListOfData()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="verifyListOfData" duration-ms="461" started-at="2020-08-24T00:16:08 IST" description="to get the list of data which is actually map that has key value pairs" finished-at="2020-08-24T00:16:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyListOfData -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-24T00:16:09 IST" finished-at="2020-08-24T00:16:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyListOfData status=SUCCESS method=NewTest.verifyListOfData()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyPerPageValue()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="verifyPerPageValue" duration-ms="435" started-at="2020-08-24T00:16:09 IST" description="Validate per page value which is an integer value" finished-at="2020-08-24T00:16:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPerPageValue -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="1" started-at="2020-08-24T00:16:09 IST" finished-at="2020-08-24T00:16:09 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyPerPageValue status=SUCCESS method=NewTest.verifyPerPageValue()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="verifyStatusCodeDelete()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="verifyStatusCodeDelete" duration-ms="1005" started-at="2020-08-24T00:16:09 IST" description="validate 204 for Delete user" finished-at="2020-08-24T00:16:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyStatusCodeDelete -->
+        <test-method status="PASS" signature="getResult(org.testng.ITestResult)[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="getResult" is-config="true" duration-ms="0" started-at="2020-08-24T00:16:10 IST" finished-at="2020-08-24T00:16:10 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyStatusCodeDelete status=SUCCESS method=NewTest.verifyStatusCodeDelete()[pri:0, instance:APITestConcept.NewTest@7c29daf3] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:APITestConcept.NewTest@7c29daf3]" name="endReport" is-config="true" duration-ms="471" started-at="2020-08-24T00:16:10 IST" finished-at="2020-08-24T00:16:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- APITestConcept.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

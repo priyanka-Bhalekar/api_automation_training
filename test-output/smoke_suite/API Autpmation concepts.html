@@ -1,0 +1,179 @@
+<html>
+<head>
+<title>TestNG:  API Autpmation concepts</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>API Autpmation concepts</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>20/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon Aug 24 00:13:58 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>14 seconds (14738 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='APITestConcept.NewTest.displayRequestBody()'><b>displayRequestBody</b><br>Test class: APITestConcept.NewTest<br>Test method: use of asString() method to check body of the request</td>
+<td></td>
+<td>3</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.getEmailOfSecondData()'><b>getEmailOfSecondData</b><br>Test class: APITestConcept.NewTest<br>Test method: to get email value of data of second node i.e index 1 or userid=2</td>
+<td></td>
+<td>1</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.getFirstNameOfSecondData()'><b>getFirstNameOfSecondData</b><br>Test class: APITestConcept.NewTest<br>Test method: to get firstname value of data of second node i.e index 1 or userid=2</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.getLastNameOfSecondData()'><b>getLastNameOfSecondData</b><br>Test class: APITestConcept.NewTest<br>Test method: to get lastname value of data of second node i.e index 1 or userid=2</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.searchyFirstname()'><b>searchyFirstname</b><br>Test class: APITestConcept.NewTest<br>Test method: validate if in the list fistname Janet is present or not </td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.useOfHeaderConcept()'><b>useOfHeaderConcept</b><br>Test class: APITestConcept.NewTest<br>Test method: concept of header in given method</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.useOfMap()'><b>useOfMap</b><br>Test class: APITestConcept.NewTest<br>Test method: Access to all keys of user id 2 </td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.useOfPathParam()'><b>useOfPathParam</b><br>Test class: APITestConcept.NewTest<br>Test method: concept of path params</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.useOfQueryParam()'><b>useOfQueryParam</b><br>Test class: APITestConcept.NewTest<br>Test method: concept of query parameters</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.validateHeaderPost()'><b>validateHeaderPost</b><br>Test class: APITestConcept.NewTest<br>Test method: Automate post methods of users with headers</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.validatePost()'><b>validatePost</b><br>Test class: APITestConcept.NewTest<br>Test method: Automate post methods of users using json file</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.validatePostWithPojoClass()'><b>validatePostWithPojoClass</b><br>Test class: APITestConcept.NewTest<br>Test method: Automate post methods of users using pojoclass</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.verifyCompanyUID2()'><b>verifyCompanyUID2</b><br>Test class: APITestConcept.NewTest<br>Test method: Verify company for user id=2</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.verifyEmailUID2()'><b>verifyEmailUID2</b><br>Test class: APITestConcept.NewTest<br>Test method: Verify email for user id=2</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.verifyGetUsersSC()'><b>verifyGetUsersSC</b><br>Test class: APITestConcept.NewTest<br>Test method: validate 200 status code GET API</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.verifyGivenFailedEndPoint()'><b>verifyGivenFailedEndPoint</b><br>Test class: APITestConcept.NewTest<br>Test method: validate 404 status code for given end point which gives 404</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.verifyInvalidURL()'><b>verifyInvalidURL</b><br>Test class: APITestConcept.NewTest<br>Test method: validate 404 status code for invalid url</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.verifyListOfData()'><b>verifyListOfData</b><br>Test class: APITestConcept.NewTest<br>Test method: to get the list of data which is actually map that has key value pairs</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.verifyPerPageValue()'><b>verifyPerPageValue</b><br>Test class: APITestConcept.NewTest<br>Test method: Validate per page value which is an integer value</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+<tr>
+<td title='APITestConcept.NewTest.verifyStatusCodeDelete()'><b>verifyStatusCodeDelete</b><br>Test class: APITestConcept.NewTest<br>Test method: validate 204 for Delete user</td>
+<td></td>
+<td>0</td>
+<td>APITestConcept.NewTest@2a17b7b6</td></tr>
+</table><p>
+</body>
+</html>
